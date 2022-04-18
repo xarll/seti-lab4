@@ -102,7 +102,7 @@ int main()
     string cred = "login pass123";
 
     // запускаем сервер с функцикй обработки логигки logic
-    startServer(logic, &list, &cred, "10.185.239.66", "27015");
+    startServer(logic, &list, &cred, "192.168.43.190", "27015");
 
     return 0;
 }

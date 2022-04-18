@@ -6,9 +6,9 @@ int main()
 {
     setlocale(LC_ALL, "rus");
 
-    std::string phrase = "nologin bread";
+    std::string phrase = "login pass123";
 
-    const char* addresses = "10.185.239.66";
+    const char* addresses = "192.168.43.190";
     const char* port = "27015";
 
     std::string result = request(Client(addresses, port), phrase);
